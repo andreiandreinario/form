@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Tahoma;
+    font-size: 1.125em;
+    background-color: #f5f7fa;
+}
+table {
+    width: 30%;
+    margin: 20px;
+    border-collapse: collapse;
+    border: 5px solid #2d4059;
+    border-spacing: 0;
+}
+caption {
+    background-color: #ea5455;
+    border: 5px solid #2d4059;
+    padding: 20px;
+    color: #ffffff;
+}
+th, td {
+    text-align: left;
+    border: 1.5px solid #2d4059;
+}
+
+tr:first-child th {
+    background-color: #2d4059;
+    color: #ffffff;
+}
+
+.address-section td {
+    background-color: #decdc3;
+}
+.item-row1 td {
+    background-color: #e5e9f0;
+}
+.item-row2 td {
+    background-color: #f9f7f7;
+}
+.tax-row td {
+    background-color: #decdc3;
+}
+.total-row td {
+    background-color: #2d4059;
+    color: #ffffff;
+    border: 1px solid #2d4059;
+}
+tr:hover td {
+    background-color: #ea5455;
+    color: #ffffff;
+}
